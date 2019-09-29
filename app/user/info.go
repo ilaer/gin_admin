@@ -1,7 +1,7 @@
 package user
 
 import (
-	"../../../gin_admin/models"
+	"gin_admin/models"
 	_ "fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/gin-gonic/gin"

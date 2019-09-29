@@ -6,7 +6,7 @@
 */
 package util
 import (
-	"../settings"
+	"gin_admin/pkg/settings"
 	"github.com/dgrijalva/jwt-go"
 	"time"
 )

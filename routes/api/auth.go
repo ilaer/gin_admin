@@ -15,10 +15,10 @@ import (
 
 	_ "github.com/gin-gonic/gin"
 
-	"../../models"
-	"../../pkg/e"
-	"../../pkg/logging"
-	"../../pkg/util"
+	"gin_admin/models"
+	"gin_admin/pkg/e"
+	"gin_admin/pkg/logging"
+	"gin_admin/pkg/util"
 )
 
 type auth struct {

@@ -1,13 +1,13 @@
 package main
 
 import (
-	"../gin_admin/routes"
-	"./pkg/settings"
 	"fmt"
+	"gin_admin/pkg/settings"
+	"gin_admin/routes"
 	"github.com/fvbock/endless"
 	"log"
 	//"net/http"
-	_"github.com/fvbock/endless"
+	_ "github.com/fvbock/endless"
 	"syscall"
 
 	//"../gin_admin/scripts"

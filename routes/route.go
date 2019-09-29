@@ -1,13 +1,13 @@
 package routes
 
 import (
-	"../../gin_admin/app/index"
-	socket_ "../../gin_admin/app/socket"
-	"../../gin_admin/app/user"
-	"../../gin_admin/middleware/jwt"
-	"../../gin_admin/pkg/settings"
-	"./api"
 	_ "fmt"
+	"gin_admin/app/index"
+	socket_ "gin_admin/app/socket"
+	"gin_admin/app/user"
+	"gin_admin/middleware/jwt"
+	"gin_admin/pkg/settings"
+	"gin_admin/routes/api"
 	"github.com/gin-gonic/gin"
 	_ "github.com/gin-gonic/gin"
 	"net/http"

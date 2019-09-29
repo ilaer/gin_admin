@@ -1,12 +1,11 @@
 package scripts
 
 import (
-	"../app/models"
 	"fmt"
 )
 func Select_One(){
 	email_:="admin@git_admin.com"
-	isopen,db:=models.InitMysql()
+	isopen,db:=InitMysql()
 	if isopen==true{
 		row:=db.QueryRow("select email,password,username from user where email=?",email_)
 

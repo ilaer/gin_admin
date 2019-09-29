@@ -1,9 +1,9 @@
 package user
 
 import (
-	"../../models"
-	"../../pkg/e"
 	_ "fmt"
+	"gin_admin/models"
+	"gin_admin/pkg/e"
 	"github.com/gin-gonic/gin"
 	_ "github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"

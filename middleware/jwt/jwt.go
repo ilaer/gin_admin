@@ -7,8 +7,8 @@
 package jwt
 
 import (
-	"../../pkg/e"
-	"../../pkg/util"
+	"gin_admin/pkg/e"
+	"gin_admin/pkg/util"
 	"github.com/gin-gonic/gin"
 	_ "github.com/gin-gonic/gin"
 	"net/http"
